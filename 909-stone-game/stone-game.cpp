@@ -13,8 +13,6 @@ public:
         }
     }
     bool stoneGame(vector<int>& piles) {
-        int n = piles.size();
-        vector<vector<int>> dp(n, vector<int>(n, -1));
-        return fun(piles, 0, n-1, 0, 0, 1, dp);
+        return true;
     }
 };
