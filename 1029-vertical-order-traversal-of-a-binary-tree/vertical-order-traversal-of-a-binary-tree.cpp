@@ -34,13 +34,8 @@ public:
         for(auto it:mp){
             vector<int> res;
             for(auto itr:it.second){
-                vector<int> temp;
                 for(auto i:itr.second){
-                    temp.push_back(i);
-                }
-                sort(temp.begin(), temp.end());
-                for(auto el:temp){
-                    res.push_back(el);
+                    res.push_back(i);
                 }
             }
             ans.push_back(res);
